@@ -49,6 +49,7 @@ const SearchBar = ({ onLocationSelect }) => {
           onFocus={() => setIsFocused(true)}
           className="search-input"
         />
+        
       </div>
       {isFocused && results.length > 0 && (
         <div className="search-results glass-panel">

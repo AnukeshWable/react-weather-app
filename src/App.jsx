@@ -10,6 +10,7 @@ function App() {
   const [locationName, setLocationName] = useState('London');
   const [coords, setCoords] = useState({ lat: 51.5085, lon: -0.1257 });
   const [loading, setLoading] = useState(true);
+  // Anukezh
 
   // Initialize with default location (London coordinates)
   useEffect(() => {
