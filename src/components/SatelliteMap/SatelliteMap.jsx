@@ -60,6 +60,9 @@ const SatelliteMap = ({ latitude, longitude }) => {
           />
           <Marker position={center} />
           <MapUpdater center={center} isExpanded={isExpanded} />
+          <div>
+            Hello
+          </div>
         </MapContainer>
       </div>
     </>
