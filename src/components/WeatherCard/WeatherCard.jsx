@@ -51,6 +51,7 @@ const WeatherCard = ({ locationName, current }) => {
           <div className="detail-info">
             <span className="detail-label">Wind</span>
             {/* <div></div> */}
+            
             <span className="detail-value">{wind_speed_10m} km/h</span>
           </div>
         </div>
